@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Assignment</title>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+	<script src="javascript.js"></script>
+
+</head>
+<body>
+	<div class="row">
+		<div class="error" id="error">
+			<p><strong>Please Enter Valid IP</strong></p>	
+		</div>
+
+		<div class="table col-50">
+			<table>
+				<thead>
+					<tr>
+						<th>&nbsp;</th>
+						<th>IP</th>
+						<th>COUNTRY NAME</th>
+					</tr>
+				</thead>
+				<tbody id="ip_table">
+				</tbody>
+			</table>
+		</div>
+
+		<div class="details col-50">
+			<div class="row">
+				<div class="row">
+					<label>Entered Ip: </label><br>
+					<input type="text" name="entered_ip" id="entered_ip">
+				</div>
+
+				<div class="row">
+					<button id="add_ip">Add Ip</button>
+				</div>
+			</div>
+		</div>
+	</div> <!-- row -->
+</body>
+</html>
